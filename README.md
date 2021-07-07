@@ -1,4 +1,4 @@
-# Applicazione Web società finanziaria
+# Applicazione società finanziaria
 Repository github per progetto del corso di Ingegneria del Software A.A. 2020/2021 alla Federico II di Napoli.
 
 
