@@ -1,0 +1,81 @@
+	    CREATE TABLE Broker (
+	        Id LONG NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	        NumeroCameraCommercio VARCHAR(255),
+	        Nome VARCHAR(255),
+	        Cognome VARCHAR(255),
+	        DataNascita DATE,
+	        Email VARCHAR(255),
+	        Password VARCHAR(255),
+	        UNIQUE KEY Broker_Email_Unique (Email) );
+	        
+  	    CREATE TABLE Risparmiatori (
+	        Id LONG NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	        CodiceFiscale VARCHAR(16),
+	        Nome VARCHAR(255),
+	        Cognome VARCHAR(255),
+	        DataNascita DATE,
+	        IndirizzoResidenza VARCHAR(255),
+	        Email VARCHAR(255),
+	        Password VARCHAR(255),
+	        UNIQUE KEY Risparmiatori_Email_Unique (Email) );
+	        
+ 	    CREATE TABLE Borse (
+	        Nome VARCHAR(255) NOT NULL PRIMARY KEY,
+	        StatoAppartenenza VARCHAR(255),
+	        OrarioApertura TIME,
+	        OrarioChiusura TIME );
+	        
+	    CREATE TABLE Pacchetti (
+	        Id LONG NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	        FattoreRischio FLOAT,
+	        StimaRendimento FLOAT );
+	        
+	    CREATE TABLE Titoli (
+	        Id LONG NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	        ValoreAzione FLOAT );
+	        
+	    CREATE TABLE Transazioni (
+	        Id LONG NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	        Quantita INTEGER,
+	        Data DATE,
+	        IdProprietario LONG,
+	        IdPacchetto LONG,
+	        FOREIGN KEY (IdProprietario) REFERENCES Risparmiatori (Id),
+	        FOREIGN KEY (IdPacchetto) REFERENCES Pacchetti (Id));
+	        
+		CREATE TABLE PacchettiCreati (
+	        IdBroker LONG,
+	        IdPacchetto LONG,		
+	        FOREIGN KEY (IdBroker) REFERENCES Broker (Id),
+	        FOREIGN KEY (IdPacchetto) REFERENCES Pacchetti (Id),
+	        PRIMARY KEY(IdBroker,IdPacchetto) );
+	        
+	    CREATE TABLE AppartenenzaTitoli (
+	        IdTitolo LONG,
+	        NomeBorsa VARCHAR(255),		
+	        FOREIGN KEY (IdTitolo) REFERENCES Titoli (Id),
+	        FOREIGN KEY (NomeBorsa) REFERENCES Borse (Nome),
+	        PRIMARY KEY(IdTitolo,NomeBorsa) );	
+	        
+	    CREATE TABLE ComposizionePacchetti (
+	    	IdPacchetto LONG,
+	        IdTitolo LONG,
+	        FOREIGN KEY (IdTitolo) REFERENCES Titoli (Id),
+	        FOREIGN KEY (IdPacchetto) REFERENCES Pacchetti (Id),
+	        NumeroAzioni INT,
+	        PRIMARY KEY(IdPacchetto,IdTitolo) );   	    			
+	        
+	        
+	        
+	        
+	        ELIMINA TABELLE
+	        DROP TABLE ComposizionePacchetti;
+	    	DROP TABLE AppartenenzaTitoli;
+	        DROP TABLE PacchettiCreati;
+	        DROP TABLE Transazioni;
+	        DROP TABLE Pacchetti;
+	        DROP TABLE Borse;
+	        DROP TABLE Titoli;
+	        DROP TABLE Broker;
+	        DROP TABLE Risparmiatori;
+	        
