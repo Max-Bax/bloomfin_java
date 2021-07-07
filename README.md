@@ -92,7 +92,7 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
 <details>
   <summary>Clicca per espandere/comprimere</summary>
   
-![diagramma_casi](https://github.com/IS-unina/canale-san-giovanni-team_4/blob/master/Diagrammi_UML/diagramma_casi_uso.png)
+![diagramma_casi](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/diagramma_casi_uso.png)
 
 </details>
 
@@ -173,7 +173,7 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
   <summary>Clicca per espandere/comprimere</summary>
   
 **Nota**: 'Pacchetto Azionario' è utilizzato come sinonimo di 'Pacchetto Finanziario'.
-![diagramma_classi](https://github.com/IS-unina/canale-san-giovanni-team_4/blob/master/Diagrammi_UML/diagramma_classi_analisi.png)
+![diagramma_classi](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/diagramma_classi_analisi.png)
 
 </details>
 
@@ -182,19 +182,19 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
   <summary>Clicca per espandere/comprimere</summary>
   
   **Creazione Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/creazione_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/creazione_pacchetto.png)\
   **Acquisto Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/acquisto_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/acquisto_pacchetto.png)\
   **Registrazione**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/registrazione.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/registrazione.png)\
   **Vendita Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/vendita_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/vendita_pacchetto.png)\
   **Consultazione Titoli Azionari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/consultazione_titolo.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/consultazione_titolo.png)\
   **Consultazione Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/consultazione_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/consultazione_pacchetto.png)\
   **Aggiornamento Valore Titoli**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Analisi/aggiorna_titoli.png)
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Analisi/aggiorna_titoli.png)
   
 </details>
 
@@ -206,7 +206,7 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
 * Aggiunta delle molteplicità di tutte le relazioni
 * Separazione delle responsabilità con l'approccio BCE, introducendo un gestore dell'applicazione e delle classi boundary di interfacciamento degli attori con esso
 
-![diagramma_classi_adv](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/diagramma_classi_avanzato.png)
+![diagramma_classi_adv](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/diagramma_classi_avanzato.png)
 
 </details>
 
@@ -215,13 +215,13 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
   <summary>Clicca per espandere/comprimere</summary>
   
   **Creazione Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Avanzate/creazione_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Avanzate/creazione_pacchetto.png)\
   **Acquisto Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Avanzate/acquisto_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Avanzate/acquisto_pacchetto.png)\
   **Vendita Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Avanzate/vendita_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Avanzate/vendita_pacchetto.png)\
   **Consultazione Titoli Azionari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Avanzate/consultazione_titolo.png)
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Avanzate/consultazione_titolo.png)
   
 </details>
 
@@ -229,7 +229,7 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
 <details>
   <summary>Clicca per espandere/comprimere</summary>
   
-![diagramma_classi_prog](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/diagramma_classi_progettazione.png)
+![diagramma_classi_prog](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/diagramma_classi_progettazione.png)
 
 </details>
 
@@ -238,13 +238,13 @@ FUNZ7 FUN \<must> - Il sistema deve saper calcolare il valore di un pacchetto fi
   <summary>Clicca per espandere/comprimere</summary>
   
   **Creazione Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Progettazione/creazione_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Progettazione/creazione_pacchetto.png)\
   **Acquisto Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Progettazione/acquisto_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Progettazione/acquisto_pacchetto.png)\
   **Vendita Pacchetti Finanziari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Progettazione/vendita_pacchetto.png)\
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Progettazione/vendita_pacchetto.png)\
   **Consultazione Titoli Azionari**:\
-  ![](https://github.com/Max-Bax/bloomfin_java/blob/master/Diagrammi_UML/Sequenze_Progettazione/consultazione_titolo.png)
+  ![](https://github.com/Max-Bax/bloomfin_java/blob/main/Diagrammi_UML/Sequenze_Progettazione/consultazione_titolo.png)
   
 </details>
 
